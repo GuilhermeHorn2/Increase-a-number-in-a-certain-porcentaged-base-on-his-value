@@ -1,0 +1,16 @@
+s = float(input(':'))
+if s > 1500:
+    s2 = s + (s*0.05)
+elif s > 700:
+    s2 = s + (s*0.1)
+elif s > 280:
+    s2 = s + (s*0.15)
+else:
+    s2 = s + (s*0.2)
+
+print(s)
+print(format(((s2/s)*100)-100,' .1f'),"%")
+print(s2 - s)
+print(s2)
+
+
